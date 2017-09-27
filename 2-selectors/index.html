@@ -2,7 +2,7 @@
 <html lang='en'>
 <meta charset="utf-8">
 <head>
-	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<title></title>
 </head>
 <body>
@@ -12,7 +12,7 @@
 	<section class='About'>
 		<h1>About</h1>
 		<p>
-		It can be intimidating for women to learn and ask questions when they are in an <span>extreme minority</span>. While open and welcoming, today's budding developer community is up to <span>91% male</span>. If we can empower more females with the confidence in their technological capabilities <span><em>we can begin to change this landscape</em></span>.	
+		It can be intimidating for women to learn and ask questions when they are in an <span><b>extreme minority</b></span>. While open and welcoming, today's budding developer community is up to <span><b>91% male</b></span>. If we can empower more females with the confidence in their technological capabilities <span><em>we can begin to change this landscape</em></span>.	
 		</p>
 	</section>
 	<section class='Locations'>
@@ -58,26 +58,27 @@
 	<section class='SignUp'>
 		<h1>Sign Up!</h1>
 		<form>
-			<label>Name:</label>
+			<label for="name">Name:</label>
 			<input type="textbox" name="">
 			<br>
-			<label>Email:</label>
+			<label for="email">Email:</label>
 			<input type="textbox" name="">
 			<br>
-			<label>Location:</label>
+			<label for="location">Location:</label>
 			<select>
 				<option value="san_francisco" selected>San Francisco</option>
 			 	<option value="new_york">New York</option>
 			</select>
 			<br>
-			<div class="div_gender">
-				<label>Gender:</label>
+			<fieldset>
+			
+				<legend>Gender:</legend>
 				<br>
 				<label>Female</label>
 				<input type="radio" name="Female">
 				<label>Male</label>
 				<input type="radio" name="Male">
-			</div>
+			</fieldset>
 			<label>Experience:</label>
 			<br>
 			<textarea></textarea>
